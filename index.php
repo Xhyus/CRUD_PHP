@@ -15,8 +15,6 @@
     <div>
         <a href="./Crear/create.php">Crear</a>
         <a href="./Listar/read.php">Leer</a>
-        <a href="./Modificar/update.php">Actualizar</a>
-        <a href="./Eliminar/delete.php">Eliminar</a>
     </div>
 </body>
 
