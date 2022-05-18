@@ -6,8 +6,14 @@ if (isset($_POST['imagen'])) {
     $result = mysqli_query($con, $sql);
     if ($result) {
         echo "Imagen subida correctamente";
+?>
+        <a href="../Listar/read.php">Volver</a>
+    <?php
     } else {
         echo "Error al subir la imagen";
+    ?>
+        <a href="../Listar/read.php">Volver</a>
+<?php
     }
 } else {
     echo "Error al subir la imagen";
